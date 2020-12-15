@@ -1,0 +1,9 @@
+vpc_id           = "10.1.0.0/16"
+public_subnet    = ["10.1.1.0/24", "10.1.2.0/24"]
+private_subnet   = ["10.1.3.0/24", "10.1.4.0/24"]
+instance_type    = "t2.micro"
+key_name         = "mehdi-assignment1"
+desired_capacity = 1
+min_size         = 1
+max_size         = 2
+sqldbinstance    = "ami-09558250a3419e7d0"
